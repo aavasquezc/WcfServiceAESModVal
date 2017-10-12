@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  wcfserviceaesmodval:
+    image: wcfserviceaesmodval
+    build:
+      context: .\WcfServiceAESModVal
+      dockerfile: Dockerfile
